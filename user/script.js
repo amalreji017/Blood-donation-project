@@ -4,7 +4,7 @@ let pass2 =document.querySelector('#cpass');
 let result=document.querySelector('h4');
 
 function checkPassword () {
-    result.innerText = pass1.value == pass2.value ? ' ':'password dont match';
+    result.innerText = pass1.value == pass2.value ? ' ':'PASSWORDS DON\'T MATCH';
 }
 pass1.addEventListener('keyup',() => {
     if(pass2.value.length!=0) checkPassword();

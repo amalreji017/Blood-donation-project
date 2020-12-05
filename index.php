@@ -14,7 +14,7 @@
 		<meta name="keywords" content="">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="index_body">
         <div class="main_div">
 
             <div class="div1">
@@ -38,20 +38,23 @@
                     <form action="index.php" method="post">
                         <div class="login_container">
                             <div class="usr">
-                                <input type="text" name="username" placeholder=" USERNAME" required> 
+                                <input class="input_i" type="text" name="username" placeholder=" USERNAME" required> 
                             </div>
                             <div class="pswd">
-                                <input type="password" name="pwd" placeholder="PASSWORD" required> 
-                            </div>
+                                <input class="input_i" type="password" name="pwd" placeholder="PASSWORD" required> 
+                            </div>              
                             <div class="button">
                                 <button  class="login_button" name="login" type="submit">LOG IN</button>
+                            
                                 <br><br><br><br>
                                 <br><br><br><br>
                                 <br><br><br>
-                                <p class="signup">Don't have an account?<a href='user/signup.php'>sign up</a></p>
+                            </div>
+                            </form>
+                            <p class="signup">Don't have an account?create one<br><a href='user/signup.php'><button  class="signup_button" type="button">SIGN UP</button></a></p>
                             </div>
                         </div>
-                    </form>
+                   
                 </div>
 
             </div>
