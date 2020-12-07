@@ -22,6 +22,10 @@
         <form action='signup.php' method='post'>
             <div class="sdiv">
                 <div class="formdiv">
+                <div>
+                            <input type="text" name="name" placeholder="NAME" required>
+                            
+                        </div>
                         <div>
                             <input type="text" name="email" placeholder="EMAIL" required>
                             
@@ -48,6 +52,7 @@
                 $user=$_POST['user'];
                 $pass=$_POST['pass'];
                 $cpass=$_POST['con_pass'];
+                $name=$_POST['name'];
                 if ($pass==$cpass){
                     $sql="select * from  login where username='$user' or email='$email';";
                     $query_run = mysqli_query($con,$sql);
@@ -57,12 +62,19 @@
                             echo "<script>window.location.href='signup.php';</script>";
                         }else{
                             //inserting credentials to table
-                            $sql='insert into login (username,email,password) values ("'.$user.'","'.$email.'","'.$pass.'");';
+                            $sql='insert into login (username,email,password,name) values ("'.$user.'","'.$email.'","'.$pass.'","'.$name.'");';
                             $query_run=mysqli_query($con,$sql);
                             if(!$query_run){
                                 echo '<script type="text/javascript">alert("Database Error")</script>';
                             }else{
+                                $sql='insert into user(name,email) values ("'.$name.'","'.$email.'");';
+                                $query_run = mysqli_query($con,$sql);
+                                if(!$query_run){
+                                    echo '<script type="text/javascript">alert("Database Error")</script>';
+                                    echo "<script>window.location.href='signup.php';</script>";
+                                }else{
                                 echo "<script>window.location.href='../index.php';</script>";
+                                }
                             }
                         }
                     }

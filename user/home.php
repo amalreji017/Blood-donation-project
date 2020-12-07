@@ -20,6 +20,7 @@
     <body>
         <div class="div1">
          <h1>WELCOME <?php echo $username; ?></h1>
+         <a href="edit.php"><button>edit</button></a>
         </div>
     </body>
 </html>
