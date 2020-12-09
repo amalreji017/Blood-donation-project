@@ -42,6 +42,9 @@
     <body class="editbody">
         <div class="editform">
             <form class="eform" action="edit.php" method=post>
+                    <div class="head">
+                        <h1>PROFILE DETAILS</h1>
+                    </div>
                     <div class="editdetails">
                         <label>NAME</label><br>
                         <input name="name" type="text" value="<?php echo $name; ?>">

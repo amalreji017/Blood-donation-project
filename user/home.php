@@ -21,6 +21,7 @@
         <div class="div1">
          <h1>WELCOME <?php echo $username; ?></h1>
          <a href="edit.php"><button>edit</button></a>
+         <a href="donate.php"><button>donate</button></a>
         </div>
     </body>
 </html>
