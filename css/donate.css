@@ -1,0 +1,56 @@
+.dbody{
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    height:90vh;
+    color:white;
+}
+.dcontainer{
+    width:60%;
+    height:70%;
+    background-color: black;
+    opacity: 0.5;
+    position:absolute;
+    top:13%;
+    left:18%;
+    padding-left:10px;
+    padding-top:8px;
+}
+.dhead{
+    text-align: center;
+}
+.dform{
+    padding-top:5px;
+    margin-left: 15%;
+    display:grid;
+    grid-template-areas:
+    'label input';
+}
+label{
+    grid-area: label;
+    padding-top:5px;
+}
+input{
+    grid-area: input;
+    padding-bottom: 5px;
+    padding:10px 10px;
+}
+.ddetails{
+    padding-top: 5px;
+    padding:2px;
+}
+.dbutton{
+    position:absolute;
+    top: 82%;
+    left:26%;
+    width:40%;
+}
+.dsbutton{
+    width:80px;
+    padding:6px;
+    background-color: #a30000;
+    color:white;
+    border-radius:4px;
+}
+.dback{
+    float: right;
+}

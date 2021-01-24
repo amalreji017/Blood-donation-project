@@ -22,6 +22,7 @@
         <form action='signup.php' method='post'>
             <div class="sdiv">
                 <div class="formdiv">
+                    <h1 class="s_h1">SIGN UP</h1>
                 <div>
                             <input type="text" name="name" placeholder="NAME" required>
                             

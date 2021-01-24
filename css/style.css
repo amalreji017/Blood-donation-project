@@ -26,8 +26,7 @@
 }
 .div2{
     grid-area: login;
-    background-color: black;
-    opacity: 0.6;
+    background-color: rgba(0,0,0,0.5);
     display:grid;
     grid-template-areas:
         'top top top top'
@@ -42,7 +41,7 @@
 .login_container{
     border-radius: 7px;
     height:450px;
-    background-color: #a30000;
+    background-color: #6b0c0c;
     margin-right: 40px;
     padding-right: 20px;
     
@@ -77,14 +76,13 @@ h2{
     background-size: cover;
 }
 .editform{
-    background-color: black;
+    background-color: rgba(0,0,0,0.5);
     width:50%;
     height:70%;
     position:absolute;
     margin-left:23%;
     margin-top:7%;
     color:white;
-    opacity: 0.5;
     border-radius: 5px;
 }
 .edit-container{
@@ -141,8 +139,7 @@ button{
 .dcontainer{
     width:60%;
     height:70%;
-    background-color: black;
-    opacity: 0.5;
+    background-color:  rgba(0,0,0,0.5);
     position:absolute;
     top:13%;
     left:18%;

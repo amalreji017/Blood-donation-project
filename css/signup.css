@@ -5,14 +5,13 @@ body{
     
 }
 .sdiv{
-    background-color:black;
+    background-color: rgba(0,0,0,0.5);
     border-radius: 7px;
-    height:50%;
+    height:59%;
     width:35%;    
-    opacity:0.6;
     position:absolute;
     left:32.5%;
-    top:30%;    
+    top:25%;    
     
 }
 .formdiv{
@@ -47,8 +46,7 @@ h4{
 .home_s{
     width:70px;
     height:30px;
-    background-color:black;
-    opacity:0.5;
+    background-color: rgba(0,0,0,0.5);
 
 }
 .homediv{   
@@ -62,4 +60,10 @@ a:link{
 }
 a:visited{
     text-decoration:none;
+}
+.s_h1{
+    position:relative;
+    color:white;
+    font:20px;
+    left:48px;
 }
