@@ -14,24 +14,28 @@
 		<meta name="keywords" content="">
         <link rel="stylesheet" href="css/style.css">
     </head>
+    <style>
+p.italic {
+  font-style: italic;
+}
+</style>
     <body class="index_body">
         <div class="main_div">
 
             <div class="div1">
                 <br>
                 <br>
+                
+                <img class="logo"src="images\Asset2.png" width="250"
+         height="80">
+         		
                 <br>
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
-                <p>
-                    Welcome to Human Care Blood Bank.
-                    Nothing is<br> more precious than gifting someone<br> life in liquid form.The blood you donate gives<br> someone another chance to live.<br>
-                    <h2>GIVE THE GIFT OF LIFE</h2>  
-                    <h1>DONATE BLOOD<h1>
-                </p>
+                <img class="para"src="images\Asset4.png" width="550" height="550">
+                <img class="last"src="images\Asset3.png" width="250"
+         height="80">
             </div>
             <div class="div2">
                 <div class="login">

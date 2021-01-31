@@ -14,6 +14,7 @@
 	<title>DONATE BLOOD</title>
 	<link rel="stylesheet" type="text/css" href="../css/request.css"> 
 <style>
+
 body{
  background-image:url("../images/bg1.png");
  background-size:cover;
@@ -101,6 +102,7 @@ h3{
     padding-left:20px;
     
 }
+
 
 
 .bloodgroup{
