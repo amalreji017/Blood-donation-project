@@ -159,6 +159,7 @@ h3{
     border-radius:10px;
     margin-right:10px;
     margin-left:10px;
+    padding-bottom:4px;
 }
 ul li{
     display: inline-block;
